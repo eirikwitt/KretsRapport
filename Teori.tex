@@ -27,3 +27,7 @@
     Halvadderen legger sammen de to bitsene, og sender signal på S hvis summen blir 1, og signal på C hvis summen blir 2.
     I den modifiserte ripple carry adderen er halvadderene koblet sammen koblet sammen slik at et av carryen fra det forrige bittet går til et av inputtene på det neste bittet.
   \subsection{Tidsforsinkelse og kritisk sti}
+    Tidsforsinkelsen til en krets er tiden det tar fra inputsignalene endrer seg til utsignalene har fått sine endelige verdier.
+    Tidsforsinkelsen avhenger hoved sakelig av vhilke porter signalet må gå igjennom, og hvor mange av dem det er.
+    Den veien signalet bruker lengst tid på å forplante seg igjennom kretsen er den kritiske stien.
+    Tidsforsinkelsen igjennom den kritiske stien er det viktigt å ta hensyn til når man designer kretser. Denne tiden avgjør hvor lenge man må vente etter å ha gitt input før man kan endre det igjen. Denne tiden brukes til å bestemme hvilken klokkehastighet kretsen kan kjøre på, og det er lurt å se på den kritiske stien hvis man skal optimalisere kretsen for å kjøre på høyere klokkehastigheter.
