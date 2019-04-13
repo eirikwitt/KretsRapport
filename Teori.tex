@@ -1,1 +1,33 @@
 \section{Teori}
+  \subsection{Tallrepresentasjon}
+    Det er 3 vanlige måter å representere heltall binært: Magnitude uten fortegn, magnitude med fortegn,
+    og toerkomplement.
+    I denne laboppgaven har tallene blitt representert med toerkompliment.
+    På toerkomplimentsform representeres positive tall som magnitude uten fortegn.
+    Negative tall representeres ved å ta inversen til absoluttveriden av tallet, og legge til 1.
+    Å ta inversen til et binærtall gjøres ved å gjøre om alle 1-ere til 0, og alle 0-ere til 1.
+    Man kan se om et tall er negativt ved å se på det MSB (det mest signifikante bittet). Hvis det er 1 er tallet negativt,
+    hvis det er 0 er tallet positivt.
+  \subsection{Absoluttverdi}
+    En absoluttverdikrets skal ta inn et tall, og gi ut absoluttverdien av tallet
+    Å ta absoluttverdien av et tall på toerkomplementsform gjøres i 3 steg.
+    \begin{enumerate}
+      \item Sjekke fortegnet til tallet ved å se på MSB.
+      \begin{itemize}
+        \item Hvis tallet er positivt, gi talet som output.
+        \item Hvis tallet er negativt, utfør punkt 2 og 3.
+      \end{itemize}
+      \item Ta inversen av tallet.
+      \item Legg til 1 til tallet og gi det som output.
+    \end{enumerate}
+  \subsection{Modifisert Ripple Carry adder}
+    En vanlig ripple carry adder består av en serie med heladdere som utfører addisjon på bitnivå, og sender ut et summ-bit til output-bussen, og et carry bit som går videre til den nesteheladderen. En slik adder tar inn 2 tall på toerkomplementsform eller som magnitude uten fortegns, og legger dem sammen. Den Modifiserte ripple carry adderen som har blitt brukt i denne laboppgaven skal derimot ta inn
+    ett tall på toerkomplimentsform og et bit. Det den skal gi ut er tallet plus det ene bittet.
+    Adderen er bygget opp av halvaddere. En halvadder har 2 inputs, (A og B), og 2 outputs, (S og C).
+    Halvadderen legger sammen de to bitsene, og sender signal på S hvis summen blir 1, og signal på C hvis summen blir 2.
+    I den modifiserte ripple carry adderen er halvadderene koblet sammen koblet sammen slik at et av carryen fra det forrige bittet går til et av inputtene på det neste bittet.
+  \subsection{Tidsforsinkelse og kritisk sti}
+    Tidsforsinkelsen til en krets er tiden det tar fra inputsignalene endrer seg til utsignalene har fått sine endelige verdier.
+    Tidsforsinkelsen avhenger hoved sakelig av vhilke porter signalet må gå igjennom, og hvor mange av dem det er.
+    Den veien signalet bruker lengst tid på å forplante seg igjennom kretsen er den kritiske stien.
+    Tidsforsinkelsen igjennom den kritiske stien er det viktigt å ta hensyn til når man designer kretser. Denne tiden avgjør hvor lenge man må vente etter å ha gitt input før man kan endre det igjen. Denne tiden brukes til å bestemme hvilken klokkehastighet kretsen kan kjøre på, og det er lurt å se på den kritiske stien hvis man skal optimalisere kretsen for å kjøre på høyere klokkehastigheter.

@@ -2,6 +2,7 @@
 \BOOKMARK [1][-]{section*.2}{Innhold}{}% 2
 \BOOKMARK [1][-]{section.1}{Innledning}{}% 3
 \BOOKMARK [1][-]{section.2}{Teori}{}% 4
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.3}{V\345rt Arbeid}{}% 5
 \BOOKMARK [2][-]{subsection.3.1}{Forarbeid}{section.3}% 6
 \BOOKMARK [3][-]{subsubsection.3.1.1}{Design av absoluttverdikrets}{subsection.3.1}% 7
@@ -9,3 +10,13 @@
 \BOOKMARK [1][-]{section.4}{Resultater}{}% 9
 \BOOKMARK [1][-]{section.5}{Diskusjon}{}% 10
 \BOOKMARK [1][-]{section.6}{Konklusjon}{}% 11
+=======
+\BOOKMARK [2][-]{subsection.2.1}{Tallrepresentasjon}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Absoluttverdi}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Modifisert Ripple Carry adder}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.4}{Tidsforsinkelse og kritisk sti}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{V\345rt Arbeid}{}% 9
+\BOOKMARK [1][-]{section.4}{Resultater}{}% 10
+\BOOKMARK [1][-]{section.5}{Diskusjon}{}% 11
+\BOOKMARK [1][-]{section.6}{Konklusjon}{}% 12
+>>>>>>> 8d2836075480ede777016be954dc993091431678
