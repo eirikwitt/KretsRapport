@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {norsk}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Sammendrag}{i}{Doc-Start}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Innhold}{ii}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Innledning}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Teori}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}V\IeC {\r a}rt Arbeid}{3}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Resultater}{4}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Diskusjon}{5}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Konklusjon}{6}{section.6}

@@ -1,0 +1,38 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Babel definerer standard autogenerert tekst for mange forskjellige språk.
+% Når vi senere kommer til figurtekst og lignende, vil dere se at Babel forsikrer
+% at det står Figur og ikke Figure i den genererte figurteksten. Det samme gjelder
+% for innholdsfortegnelse etc.
+\usepackage[norsk]{babel}
+
+% << >> erstatter "" i referanseliste (Frivillig)
+\usepackage{csquotes}
+
+% Gjør at output PDF støtter linker.
+\usepackage{hyperref}
+
+% For mer fleksible nummererte lister.
+\usepackage{enumitem}
+
+% For å inkludere bilder i rapporten. Takler ganske mange formater
+\usepackage{graphicx}
+% Søkepath for å finne bilder. Dette er alternativt til å skrive full path der dere legger inn bildet.
+\graphicspath{{./figurer/}}
+\usepackage{subcaption}
+
+% Brukes for å få tekst til å gå over flere rader i en tabell.
+\usepackage{multirow}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{tikz}
+\usepackage{circuitikz}
+
+\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm]{geometry}
+
+% % En av pakkene som kan brukes til referanser
+\usepackage[style=ieee, citestyle=numeric-comp]{biblatex}
+\addbibresource{mylib.bib}

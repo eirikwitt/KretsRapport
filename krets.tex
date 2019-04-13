@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+
+\input{setup.tex}
+
+\pagenumbering{roman}
+
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+
+\title{\Huge{Labrapport - Lab 4}}
+\author{Sondre H. Elgaaen \& Eirik Wittersø}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+  \maketitle
+  \thispagestyle{empty}
+  \begin{center}
+    \vfill
+      {
+        \large TFE4101 Krets og Digitalteknikk\\
+        Norges Teknisk-Naturvitenskapelige Universitet
+      }
+  \end{center}
+\end{titlepage}
+
+\clearpage
+
+\input{Sammendrag.tex}\clearpage
+
+\tableofcontents
+\addcontentsline{toc}{section}{Innhold}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Innledning.tex}\clearpage
+
+\input{Teori.tex}\clearpage
+
+\input{Arbeid.tex}\clearpage
+
+\input{Resultater.tex}\clearpage
+
+\input{Diskusjon.tex}\clearpage
+
+\input{Konklusjon.tex}\clearpage
+
+\printbibliography
+\addcontentsline{toc}{section}{Referanser}
+\clearpage
+
+\input{Vedlegg.tex}
+
+\end{document}
