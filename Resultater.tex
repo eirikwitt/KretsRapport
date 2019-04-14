@@ -1,10 +1,9 @@
 \section{Resultater}
-Ved testing av en enkelt halvadder fikk vi følgende resultater.
+Ved testing av en enkelt halvadder fikk vi følgende resultater:
 
 \begin{table}[!htb]
     \centering
     \caption{Halvadder resultater}
-    \label{tab:inl_sparse_tabell}
     \begin{tabular}{|c|c|c|c|c|c|}
         \hline
         \multicolumn{4}{|c|}{\textbf{Verdier fra forarbeid}} & \multicolumn{2}{c|}{\textbf{Målte verdier}} \\ \hline
@@ -16,7 +15,7 @@ Ved testing av en enkelt halvadder fikk vi følgende resultater.
     \end{tabular}
 \end{table}
 
-Ved testing av ferdigkoblet absoluttverdikrets fikk vi følgende resultater.
+Ved testing av ferdigkoblet absoluttverdikrets fikk vi følgende resultater:
 
 \begin{table}[!htb]
   \caption{Absoluttverdikrets resultater}
@@ -40,5 +39,63 @@ Ved testing av ferdigkoblet absoluttverdikrets fikk vi følgende resultater.
     1001  & 0x9 & -7 & 1001  & 0x7 & 1001  & 0x7 \\
     1000  & 0x8 & -8 & 1000  & 0x8 & 1000  & 0x8 \\
 
+  \end{tabular}
+\end{table}
+
+\clearpage
+
+Ved testing av forplantningstid fikk vi følgende resultater:
+
+\begin{figure}
+  \centering
+  \caption{Tidsforsinkelse for kritisk sti}
+  \includegraphics[width=14cm]{Bilder/fosinkelse.png}
+\end{figure}
+
+\begin{table}[!htb]
+  \centering
+  \caption{Tidsforsinkelse for kritisk sti}
+  \begin{tabular}{c c c|c c c}
+    \multicolumn{3}{c|}{\textbf{Tidsforsinkelse}} & \multicolumn{3}{c}{\textbf{Maksimal klokkefrekvens}} \\ \hline
+    \textbf{Utregnet} & \textbf{Målt} & \textbf{Avvik} & \textbf{Utregnet} & \textbf{Målt} & \textbf{Avvik} \\ \hline
+    655 ns & 543 ns & 112 ns & 1.53 MHz & 1.84 MHz & 0.31 MHz\\
+  \end{tabular}
+\end{table}
+
+Ved testing av falltid og stigetid over kritisk sti fikk vi følgende resultater:
+
+\begin{figure}
+  \centering
+  \caption{Falltid XOR}
+  \includegraphics[width=14cm]{Bilder/Fall.png}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \caption{Stigetid XOR}
+  \includegraphics[width=14cm]{Bilder/Rise.png}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \caption{Falltid AND}
+  \includegraphics[width=14cm]{Bilder/Fall_and.png}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \caption{Stigetid AND}
+  \includegraphics[width=14cm]{Bilder/Rise_and.png}
+\end{figure}
+
+
+\begin{table}
+  \centering
+  \caption{Stigetider og falltider}
+  \begin{tabular}{c|c c}
+     & \textbf{Stigetid} & \textbf{Falltid} \\ \hline
+     \textbf{XOR} & 37.6 ns & 55.6 ns \\
+     \textbf{AND} & 23.3 ns & 18.6 ns \\
+     
   \end{tabular}
 \end{table}
