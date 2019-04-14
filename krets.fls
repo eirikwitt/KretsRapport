@@ -380,6 +380,9 @@ INPUT Konklusjon.tex
 INPUT Konklusjon.tex
 INPUT Vedlegg.tex
 INPUT Vedlegg.tex
+INPUT ./Bilder/Absoluttverdikrets.jpg
+INPUT ./Bilder/Absoluttverdikrets.jpg
+INPUT ./Bilder/Absoluttverdikrets.jpg
 INPUT krets.aux
 INPUT ./krets.out
 INPUT ./krets.out
