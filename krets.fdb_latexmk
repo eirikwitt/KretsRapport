@@ -1,10 +1,10 @@
 # Fdb version 3
-["biber krets"] 0 "krets.bcf" "krets.bbl" "krets" 1555254902
-  "krets.bcf" 1555254902 89621 ad3927eb369beb49e9c0152197e3da4c ""
+["biber krets"] 0 "krets.bcf" "krets.bbl" "krets" 1555270985
+  "krets.bcf" 1555270984 89621 ad3927eb369beb49e9c0152197e3da4c ""
   (generated)
   "krets.blg"
   "krets.bbl"
-["pdflatex"] 1555254901 "krets.tex" "krets.pdf" "krets" 1555254902
+["pdflatex"] 1555270983 "krets.tex" "krets.pdf" "krets" 1555270985
   "/etc/texmf/web2c/texmf.cnf" 1554740306 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1480098696 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -216,7 +216,7 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1554740343 2885931 54a0ba4e594f83ea336338297f8ab976 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1554740355 4221730 741aa457760006804be07196449f9992 ""
-  "Arbeid.tex" 1555254899 3208 e914b07cd908f9770bca93d291b0ea40 ""
+  "Arbeid.tex" 1555270983 3799 161cc7f5608644857237229a4a81f42e ""
   "Diskusjon.tex" 1555172232 20 83ad313ccb11c7c8a1a85f4ce88dbce5 ""
   "Innledning.tex" 1555172232 21 abc436bae240b6bdc0b1ef9f11a4a7d2 ""
   "Konklusjon.tex" 1555172232 21 bb059a64f695e53ef7da250dfc81e11f ""
@@ -224,18 +224,18 @@
   "Sammendrag.tex" 1555172232 65 0a521480300ee8c9db761f17691f5617 ""
   "Teori.tex" 1555188526 3014 097e8db315c7dcf0e012bffc28322a45 ""
   "Vedlegg.tex" 1555172232 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "krets.aux" 1555254902 3197 bec364c67f159cad96e5658ef942123a ""
+  "krets.aux" 1555270984 3197 bec364c67f159cad96e5658ef942123a ""
   "krets.bbl" 1555191330 466 5e94f251ea8a419bbae6173a1e9a9c1d "biber krets"
-  "krets.out" 1555254902 845 34c88b83176eff6dda341cbe25d55642 ""
-  "krets.run.xml" 1555254902 2374 a0a3da28e22e80e2e5a869ff4c100bf4 ""
+  "krets.out" 1555270984 845 34c88b83176eff6dda341cbe25d55642 ""
+  "krets.run.xml" 1555270984 2374 a0a3da28e22e80e2e5a869ff4c100bf4 ""
   "krets.tex" 1555191328 937 d5afd925b6dc89c32e1f7974fb9e5482 ""
-  "krets.toc" 1555254902 1214 039bd9771c38513131596e43b1f6416e ""
+  "krets.toc" 1555270984 1214 039bd9771c38513131596e43b1f6416e ""
   "setup.tex" 1555254664 1207 b7d21d586d6c824ca672c0345ff9e6de ""
   (generated)
   "krets.out"
-  "krets.run.xml"
-  "krets.bcf"
-  "krets.aux"
   "krets.log"
+  "krets.run.xml"
   "krets.toc"
+  "krets.bcf"
   "krets.pdf"
+  "krets.aux"

@@ -83,7 +83,7 @@ Deretter designet vi en halvadderkrets. En halvadderkrets adderer to tall og har
 
 Etter å ha designet disse komponentene, måtte vi sette de sammen til å bli en 4-bits absoluttverdikrets.
 Da lagde vi blokker ved å sette inverterkretsen og halvadderkretsen i serie, og satte fire av disse blokkene i parallell.
-Videre brukte vi MSB som enable signal for inverterne og som mente inn for første halvadder, slik som i figur [REF HER].
+Videre brukte vi MSB som enable signal for inverterne og som mente inn for første halvadder, slik som i figur [NB: REF HER].
 
 \subsubsection*{Beregning av kritisk sti og maksimal klokkehastighet}
 
@@ -111,12 +111,24 @@ Gitt disse verdiene kan vi regne oss frem til forsinkelse gjennom kritisk sti.
   2 \cdot 140ns + 3 \cdot 125ns = 655ns
 \end{displaymath}
 
-Dette gir oss at maksimal klokkehastighet er... SJEKK VERDI
+Dette gir oss at maksimal klokkehastighet er:
 
-\begin{displaymath} % SJEKK VERDI
-  1/655ns = \SI{1.53}{\mega\hertz}
+\begin{displaymath}
+  \frac{1}{655ns} = \SI{1.53}{\mega\hertz}
 \end{displaymath}
 
-\clearpage
-
 \subsection{Kobling av absoluttverdikrets}
+
+Før vi starter på labarbeidet sørget vi for å resette alt av utstyr som kunne resettes.
+Deretter kunne vi begynne med første del av labarbeidet, som var å koble opp en halvadderkrets på veroboardet.
+Da satte vi kretskortet i sokkelen og koblet på 7DC fra spenningskilden inn til terminal 31 og jord til terminal 32.
+
+Videre koblet vi halvadderkretsen som følger:
+\begin{displaymath}
+  28 \rightarrow 16, 14
+\end{displaymath}
+\begin{displaymath}
+  27 \rightarrow 15, 13
+\end{displaymath}
+NB: SETT INN FIGUR
+Etter at vi koblet opp kretsen testet vi den etter Figur \ref{tabell:2}. Alle verdier stemte overrens.

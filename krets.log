@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.4.8)  14 APR 2019 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.4.8)  14 APR 2019 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1462,9 +1462,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ] [3] (./Arbeid.tex [4
 
-] [5]) [6
-
-] (./Resultater.tex) [7
+] [5]) [6] (./Resultater.tex) [7
 
 ] (./Diskusjon.tex)
 [8
@@ -1504,10 +1502,10 @@ b></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb
 >
-Output written on krets.pdf (12 pages, 135982 bytes).
+Output written on krets.pdf (12 pages, 136926 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 166 compressed objects within 2 object streams
+ 192 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  35 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
